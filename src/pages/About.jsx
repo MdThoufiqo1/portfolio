@@ -14,7 +14,7 @@ function About() {
             About <span>Me</span>
           </h2>
           <p>
-            I am a Developer and Designer based in Pune, India 🌍. I have always
+            I am a Developer and Designer , India 🌍. I have always
             been fascinated by Knowledge 🧠 and learning new things. Throughout
             my life, I have spoken, read and written in English fluently.
             Currently, I'm exploring Restful API's 👩🏾‍💻 as part of my skillset.
