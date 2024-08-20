@@ -18,14 +18,17 @@ const App = () => {
           element={
             <>
               <Frontpage />
-              <About />
-              <Skills />
               <ProjectExp />
+              <Skills />
+              <About />
               <Contact/>
               <Footer />
             </>
           }
         />
+        <Route exact path="/projects" element={
+          <><ProjectExp/>
+          <Footer /></>}/>
       </Routes>
     </>
     

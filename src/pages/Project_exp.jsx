@@ -6,7 +6,7 @@ import proj_data from './assets/ProjectsData';
 
 const Project_exp = () => {
   const [showAllCards, setShowAllCards] = useState(false);
-  const visibleCards = proj_data.slice(0, 5);
+  const visibleCards = proj_data.slice(0, 4);
 
   return (
     <div>
@@ -53,7 +53,7 @@ const Project_exp = () => {
 
           {showAllCards && (
             <>
-              {proj_data.slice(6).map((e, index) => (
+              {proj_data.slice(4,8).map((e, index) => (
                 <div
                   className="section"
                   key={index}
@@ -89,7 +89,7 @@ const Project_exp = () => {
               >
                 <HashLink
                   onClick={() => setShowAllCards(false)}
-                  to={'/#my-work'}
+                  to={'/#my_skill'}
                   data-aos="fade-down"
                   data-aos-duration="2000"
                   className="view__btn"
@@ -116,6 +116,14 @@ const Project_exp = () => {
               >
                 View All
               </button>
+              <HashLink
+                data-aos="fade-down"
+                data-aos-duration="2000"
+                className="view__btn"
+                to={'/projects'}
+              >
+                go 
+            </HashLink>
             </div>
           )}
         </div>
